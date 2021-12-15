@@ -1,0 +1,1 @@
+package org.santihs.pooexceptions.example;public class FormatNumberException extends Exception {    public FormatNumberException(String message) {        super(message);    }}

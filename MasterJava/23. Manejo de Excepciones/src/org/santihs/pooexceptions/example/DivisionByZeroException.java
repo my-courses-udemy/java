@@ -1,0 +1,1 @@
+package org.santihs.pooexceptions.example;public class DivisionByZeroException extends Exception {    public DivisionByZeroException(String message){        super(message);    }}

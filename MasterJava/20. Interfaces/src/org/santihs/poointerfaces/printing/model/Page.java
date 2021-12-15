@@ -1,0 +1,1 @@
+package org.santihs.poointerfaces.printing.model;public class Page extends PaperSheet implements Printable {    public Page(String contents) {        super(contents);    }    @Override    public String print() {        return this.contents;    }}

@@ -1,0 +1,1 @@
+package org.santihs.poointerfaces.printing.model;public enum Gender {    DRAMA,    ACTION,    FEAR,    FICTION;}

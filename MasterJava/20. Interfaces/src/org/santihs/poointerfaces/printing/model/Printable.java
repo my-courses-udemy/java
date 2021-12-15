@@ -1,0 +1,1 @@
+package org.santihs.poointerfaces.printing.model;public interface Printable {    final static String DEFECT_TEXT = "PRINT VALUE DEFECT";    String print();    static void print(Printable printable){        System.out.println(printable.print());    }    /*    * default String print(){    *   return "Default Print";    * }    * */}

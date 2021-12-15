@@ -1,0 +1,1 @@
+package org.santihs.poointerfaces.printing.model;abstract public class PaperSheet {    protected  String contents;    public PaperSheet(String contents) {        this.contents = contents;    }    abstract  public String print();}

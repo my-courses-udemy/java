@@ -1,0 +1,9 @@
+test/TestManejoUsuarios.class
+test/TestMysqlJDBC.class
+datos/Conexion.class
+domain/Usuario.class
+test/TestManejoPersonas.class
+datos/PersonaDao.class
+datos/PersonaDaoJDBC.class
+domain/PersonaDTO.class
+datos/UsuarioDAO.class
