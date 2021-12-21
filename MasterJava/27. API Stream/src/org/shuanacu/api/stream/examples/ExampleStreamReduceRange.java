@@ -6,6 +6,8 @@ import java.util.stream.IntStream;
 public class ExampleStreamReduceRange {
 
     public static void main(String[] args) {
+//        Allows to create a range of integers, rangeClosed() includes a last argument
+//        Exist also to LongStream, DoubleStream
         IntStream number = IntStream
                 .range(5, 20)
                 .peek(System.out::println);
