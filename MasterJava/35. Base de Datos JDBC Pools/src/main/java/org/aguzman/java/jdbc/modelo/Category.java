@@ -1,8 +1,8 @@
 package org.aguzman.java.jdbc.modelo;
 
-public class Categoria {
+public class Category {
     private Long id;
-    private String nombre;
+    private String name;
 
     public Long getId() {
         return id;
@@ -12,11 +12,11 @@ public class Categoria {
         this.id = id;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getName() {
+        return name;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setName(String name) {
+        this.name = name;
     }
 }
