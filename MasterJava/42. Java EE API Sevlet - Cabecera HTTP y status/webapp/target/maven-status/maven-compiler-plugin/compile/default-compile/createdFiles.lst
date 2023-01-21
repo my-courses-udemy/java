@@ -1,0 +1,11 @@
+org/bo/webapp/servlet/services/ProductServiceImpl.class
+org/bo/webapp/servlet/controllers/DispatcherServlet.class
+org/bo/webapp/servlet/models/Product.class
+org/bo/webapp/servlet/controllers/UpdatedHourServlet.class
+org/bo/webapp/servlet/controllers/HeaderHTTPRequestServlet.class
+org/bo/webapp/servlet/controllers/ProductXLSServlet.class
+org/bo/webapp/servlet/controllers/LoginServlet.class
+org/bo/webapp/servlet/controllers/ProductJSONServlet.class
+org/bo/webapp/servlet/controllers/SearchProductServlet.class
+org/bo/webapp/servlet/services/ProductService.class
+org/bo/webapp/servlet/controllers/RedirectServlet.class
