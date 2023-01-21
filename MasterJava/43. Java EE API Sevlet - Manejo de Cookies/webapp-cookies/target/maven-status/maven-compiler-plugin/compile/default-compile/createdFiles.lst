@@ -1,0 +1,8 @@
+org/bo/webapp/servlet/services/ProductServiceImpl.class
+org/bo/webapp/servlet/services/LoginService.class
+org/bo/webapp/servlet/services/LoginServiceImpl.class
+org/bo/webapp/servlet/controllers/ProductServlet.class
+org/bo/webapp/servlet/models/Product.class
+org/bo/webapp/servlet/controllers/LogOutServlet.class
+org/bo/webapp/servlet/controllers/LoginServlet.class
+org/bo/webapp/servlet/services/ProductService.class
