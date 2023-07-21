@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title th:text="${title}"></title>
+</head>
+<body>
+<h1 th:text="${title}"></h1>
+<ul>
+  <li>
+    <a th:href="@{/params/string(text='Hello world')}">Link to /params/string with params</a>
+  </li>
+  <li>
+    <a th:href="@{/params/string(text='How are you Sho?')}">Link to /params/string with different params</a>
+  </li>
+  <li>
+    <a th:href="@{/params/mix-params(greeting='Test with 2 parameters', number=10)}">Link to /params/string with 2 params</a>
+  </li>
+  <li>
+    <a th:href="@{/params/mix-params-request(greeting='Test with 2 parameters', number=10)}">Link to /params/string with 2 params (2nd option)</a>
+  </li>
+</ul>
+</body>
+</html>
